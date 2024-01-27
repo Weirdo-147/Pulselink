@@ -14,8 +14,18 @@ module.exports = {
       videoBackground: {
         'cherry-blossom': "url('./components/img/cherry blossom. [lofi jazzhop chill mix] (online-video-cutter.com).mp4')",
       },
+      flex: {
+        '3':'3 3 0%',
+        '2': '2 2 0%',
+        '1':'1 1 0%',
+      },
+      height: {
+        'messages': 'calc(100vh - 6rem)', // Add this line
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
 

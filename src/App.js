@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./components/Home"
-import Chats from "./components/Chat/Chats";
-import Messege from "./components/Chat/Messege";
+import ChatHome from "./components/ChatInterface/ChatHome";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App=()=>{
@@ -9,8 +8,7 @@ const App=()=>{
     <Router>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/Chats" element={<Chats/>}></Route>
-        <Route path="/Messege" element={<Messege/>}></Route>
+        <Route path="/ChatHome" element={<ChatHome/>}></Route>
       </Routes>
     </Router>
     
