@@ -5,6 +5,9 @@
   "dependencies": {
     "@daily-co/daily-js": "^0.56.0",
     "@daily-co/daily-react": "^0.16.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.7",
     "@testing-library/jest-dom": "^6.2.0",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.2",
