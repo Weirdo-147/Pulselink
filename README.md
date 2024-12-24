@@ -1,70 +1,92 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PulseLink 💬⚡  
+**A Real-Time Chat Application**  
 
-## Available Scripts
+**Status**: 🛠️ *Under Development*  
+PulseLink is a dynamic chat application designed to deliver seamless real-time communication. While the project is still under development, you can explore the **UI** and share your valuable feedback.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features (Planned)  
+- **Real-Time Messaging**: Send and receive messages instantly.  
+- **User Authentication**: Secure sign-in and sign-up process.  
+- **Group Chats**: Create and join group conversations.  
+- **Typing Indicators**: Know when someone is typing.  
+- **Message History**: Access chat history securely.  
+- **Multimedia Sharing**: Share images, videos, and other files.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack  
+- **Frontend**: React.js  
+- **Backend**: Django  
+- **Database**: Supabase  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌟 Explore the UI  
+The PulseLink UI is ready for you to check out. We encourage you to explore the design and provide feedback for improvement!  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Steps to Set Up Locally  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites  
+- Install **Node.js** (for React)  
+- Install **Python 3.x** (for Django)  
+- Install **PostgreSQL** (if running locally, as Supabase uses PostgreSQL)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend Setup (Django)  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/your-repo/pulselink.git  
+   cd pulselink/backend  
+   ```  
+2. Install Python dependencies:  
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
+3. Set up environment variables:  
+   Create a `.env` file and add the required keys (e.g., Supabase credentials, secret keys).  
+4. Run database migrations:  
+   ```bash  
+   python manage.py migrate  
+   ```  
+5. Start the backend server:  
+   ```bash  
+   python manage.py runserver  
+   ```  
 
-### `npm run eject`
+### Frontend Setup (React)  
+1. Navigate to the frontend folder:  
+   ```bash  
+   cd ../frontend  
+   ```  
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+3. Start the React development server:  
+   ```bash  
+   npm start  
+   ```  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### View the Application  
+- Open your browser and go to `http://localhost:3000` for the frontend and `http://localhost:8000` for the backend.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing  
+We welcome your contributions! If you have ideas, suggestions, or encounter issues, please create an issue or submit a pull request.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📩 Feedback  
+Feel free to reach out with feedback, feature requests, or bug reports at **weirdo.dheeraj@gmail.com**.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### License  
+This project is licensed under the [MIT License](LICENSE).  
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
